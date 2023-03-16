@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.box{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(221, 199, 171);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    .box1{
+        width: 30%;
+        height: 80% ;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+    //    justify-content: center;
+       align-items: center;
+       border-radius: 40px;
+       overflow-y: auto;
+       overflow-x:hidden;
+    #nam {
+       margin-top: 20px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 600;
+       border: 0px solid black;
+       width: 100%;
+       height: 10%;
+       text-align: center;
+       background-color:#8566aa;
+       border-radius: 6px;
+       padding-top: 7px;
+       position: sticky;
+       top:20px;
+      
+    }
+   
+   .box3{ 
+      display: flex;
+      width:100%;
+      justify-content: center;
+      position: sticky;
+      top: 40px;
+    input{
+        margin-top: 35px;     
+        width: 55%;
+        padding: 15px;
+     font-weight: 600 ;
+        font-size: large;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+        outline: none;
+  background-color:  #f4f4f4;
+  border-bottom: 4px solid #8566aa;
+//   outline: none;
+//    
+
+    }
+   button{
+    font-size: 42px;
+    align-self: flex-end;
+    margin-left: 13px;
+  
+    padding: 8px;
+    border-radius: 100%;
+    background-color:#8566aa;
+    border: none;
+    color: #f4f4f4;
+    cursor: pointer;
+ 
+   } 
+}
+.box4{
+    width: 100%;
+        display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    margin-left: 20px;
+ul{
+    display: flex;
+    flex-direction: column;
+    
+ li{  // flex-direction: column  ;
+   
+  display: flex;
+  margin-top: 10px;
+
+  
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 15px;
+    color: #8566aa;
+}
+button
+{
+    font-size: large;
+    margin-left: 38px;
+    background-color:#8566aa;
+    border-radius: 51%;
+    outline: none;
+    cursor: pointer;
+}
+#uni:hover{
+    background-color: red;
+   
+}    
+} 
+}
+}
+    }
+}
